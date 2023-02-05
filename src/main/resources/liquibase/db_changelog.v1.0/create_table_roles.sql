@@ -1,4 +1,3 @@
-create table job roles(
-    id bigserial primary key,
-    roles varchar(256) not null
-)
+create table roles(
+    role varchar(256) primary key
+);
